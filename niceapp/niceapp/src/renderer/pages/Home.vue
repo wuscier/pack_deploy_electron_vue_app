@@ -16,14 +16,14 @@
     <hr>
 
     <div>
-      <span>../../../static/img/ku.png</span>
-      <img src="../../../static/img/ku.png">
+      <span>static/img/ku.png</span>
+      <img src="static/img/ku.png">
     </div>
     
     <hr>
     <div>
-      <span>/static/img/ku.png</span>
-      <img src="/static/img/ku.png">
+      <span>static/img/ku.png</span>
+      <img src="static/img/ku.png">
     </div>
 
     <hr>
@@ -48,12 +48,12 @@ export default {
   data() {
     return {
       hardwares1: [
-        { icon: require("../../../static/img/ku.png") },
-        { icon: require("../../../static/img/result.png") }
+        { icon: "static/img/ku.png" },
+        { icon: "static/img/result.png" }
       ],
       hardwares2: [
-        { icon: require("../../../static/img/ku.png") },
-        { icon: require("../../../static/img/result.png") }
+        { icon: "static/img/ku.png" },
+        { icon: "static/img/result.png" }
       ]
     };
   }
